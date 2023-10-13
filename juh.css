@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #00BFFF;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+h1,h2 {
+    color: #886ce4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: fixed;
+    width: 98%;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(135,206,235, 0.90);
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+p {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+section {
+    display: inline-block;
+}
+
+.texto {
+    width: 20%;
+    height: 1000px;
+}
+
+.cor {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px;
+}
+
+.vida {
+    height: 500px;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+.nossa {
+    height: 500px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 50px;
+}
+
+.coracao {
+    height: 500px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.lingua {
+    height: 500px;
+    width: 280px;
+    float: right;
+    margin-top: 180px;
+    margin-right: 50px;
+}
+
+.primeiraFoto {
+    float: right;
+    width: 70%;
+    height: 1000px;
+}
+
+.fotinha {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+.insta {
+    margin-top: 0px;
+}
+
+.div {
+    width: 300px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.div2 {
+    float: right;
+}
+
+.header {
+    height: 70px;
+    width: 70px;
+}
+
+.paragrafo {
+    width: 100%;
+    height: 1000px;
+}
+
+#juh {
+    text-align: center;
+    font-size: 30px;
+}
+
+#rafa {
+    text-align: center;
+    font-size: 30px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.textos {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF69B4;
+}
+
+.linda {
+    height: 280px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.v {
+    color: red;
+}
+
+#footer-div {
+    height: 500px;
+}
+
+#m {
+    color: #800000;
+}
+
+#d {
+    color: #8B0000;
+}
+
+#f {
+    color: #B22222;
+}
+
+#b {
+    color: #A52A2A;
+}
+
+#s {
+    color: #FA8072;
+}
+
+#t {
+    color: #FF6347;
+}
+
+#ms {
+    color: #7B68EE;
+}
+
+#mp {
+    color: #9370DB;
+}
+
+#bv {
+    color: #8A2BE2;
+}
+
+#i {
+    color: #4B0082;
+}
+
+#dv {
+    color: #9400D3;
+}
+
+#do {
+    color: #9932CC;
+}
+
+#mo {
+    color: #BA55D3;
+}
+
+#p {
+    color: #800080;
+}
+
+#dm {
+    color: #8B008B;
+}
+
+#fu {
+    color: #FF00FF;
+}
+
+#v {
+    color: #EE82EE;
+}
+
+#o {
+    color: #DA70D6;
+}
+
+#pl {
+    color: #DDA0DD;
+}
+
+#mv{
+    color: #C71585;
+}
+
+#dp {
+    color: #FF1493;
+}
+
+#h {
+    color: #FF69B4;
+}
+
+#pa {
+    color: #DB7093;
+}
+
+#r{
+    color: red;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,300;1,500&display=swap');
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+* {
+    font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-30);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#Facebook {
+    background-color: #4267b3;
+}
+
+#Whatsaap {
+    background-color: #25d366;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}    
+
+@media screen and (max-width: 1400px) {
+    .vida {
+        width: 150px;
+        height: 200px;
+    }
+
+    .nossa {
+        width: 150px;
+        height: 200px;
+    }
+
+    .coracao {
+        width: 150px;
+        height: 200px;
+    }
+
+    .lingua {
+        width: 150px;
+        height: 200px;
+    }
+
+    .linda {
+        width: 150px;
+        height: 200px;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    .texto {
+        width: 30%;
+        height: 700px;
+    }
+
+    .paragrafo {
+        height: 700px;
+    }
+
+    .primeiraFoto {
+        height: 700px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .vida {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nossa {
+        width: 100px;
+        height: 100px;
+    }
+
+    .coracao {
+        width: 100px;
+        height: 100px;
+    }
+
+    .lingua {
+        width: 100px;
+        height: 100px;
+    }
+
+    .linda {
+        width: 100px;
+        height: 100px;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .texto {
+        width: 30%;
+        height: 700px;
+    }
+
+    .paragrafo {
+        height: 700px;
+    }
+
+    .primeiraFoto {
+        height: 700px;
+    }
+
+}
+
+#footer_text {
+    margin-left: 0;
+}
+
+#musica {
+    margin-left: 100px;
+    margin-bottom: 8px;
+}
+
+#musica2 {
+    margin-top: 45px;
+    margin-left: 0;
+}
+
+#rafael {
+    display: flex;
+    gap: 2rem;
+    margin-top: 5.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+#rafael .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#rafael .footer-link i {
+    font-size: 1.25rem;
+}
+
+#rafael .footer-link:hover {
+    opacity: 0.8;
+}
